@@ -1,0 +1,17 @@
+<!--pages/cinema/cinema_list/cinema_list.wxml-->
+<block wx:for="{{cinemas}}" wx:key="{{index}}">
+<view class="body">
+    <view>
+      <view class="title">{{item.nm}}</view>
+      <view class="site">
+        <view class="location">{{item.addr}}</view>
+        <view class="place">{{item.distance}}</view>
+      </view>
+      <view>
+        <block wx:for="{{['小吃','特价','套餐']}}" wx:key="{{index}}">
+          <text class="card">{{item}}</text>
+        </block>
+      </view>
+    </view>
+</view>
+</block>

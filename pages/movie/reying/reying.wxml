@@ -1,0 +1,21 @@
+<!--pages/movie/reying/reying.wxml-->
+<block wx:for="{{reyingList}}" wx:key="{{index}}">
+  <view class="heated" bind:tap="handleSkip" data-movieId="{{item.id}}">
+    <view>
+      <image src="{{item.img}}" class="heated_img"></image>
+    </view>
+    <view class="middle">
+      <view class="title">{{item.nm}}</view>
+      <view class="text">主演：{{item.star}}</view>
+      <view>上映时间：{{item.rt}}</view>
+      <view class="fy">{{item.showInfo}}</view>
+    </view>
+    <view class="right">
+      <view class="grade">
+        <text class="score">{{item.sc}}</text>
+        <text>分</text>
+      </view>
+      <view class="btn">购票</view>
+    </view>
+  </view>
+</block>

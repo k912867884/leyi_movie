@@ -1,0 +1,14 @@
+<!--components/seek/seek.wxml-->
+<view>
+  <view>定位城市</view>
+  <view class="dwcinema">广州</view>
+  <view>热门城市</view>
+  <view>
+    <block wx:for="{{8}}" wx:key="{{index}}">
+      <view>上海</view>
+    </block>
+  </view>
+  <view>
+   
+  </view>
+</view>

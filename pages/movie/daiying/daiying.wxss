@@ -1,0 +1,56 @@
+/* pages/movie/daiying/daiying.wxss */
+.heated{
+  display:flex;
+  justify-content: space-between;
+  padding:20rpx;
+  font-size:25rpx;
+  color:#555;
+}
+.middle{
+  width:390rpx;
+  height:173rpx;
+  margin:30rpx 10rpx 0;
+}
+.heated_img{
+  width:160rpx;
+  height:200rpx;
+  border-radius:10rpx;
+  box-shadow:5rpx 5rpx 10rpx #555;
+}
+.title{
+  margin-bottom:13rpx;
+  font-size:40rpx;
+  font-weight:100;
+  color:black;
+}
+.text{
+  text-overflow:ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom:5rpx;
+}
+.fy{
+  margin-top:5rpx;
+  color:#888;
+}
+.grade{
+  color:#f3be24;
+
+}
+.right{
+  margin-top:50rpx;
+  text-align: center;
+  font-size:18rpx;
+}
+.score{
+  font-size:28rpx;
+}
+.btn{
+  padding: 10rpx 20rpx;
+  width:50rpx;
+  background:#4285f4;
+  color:#fff;
+  border-radius:6rpx;
+  margin:20rpx 0 0 20rpx;
+  font-size:23rpx;
+}

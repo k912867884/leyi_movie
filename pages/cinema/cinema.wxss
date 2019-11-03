@@ -1,0 +1,17 @@
+/* pages/cinema/cinema.wxss */
+.header{
+  height:80rpx;
+  background-color: #ddd;
+  border:1px solid #ddd;
+}
+.find{
+  width:600rpx;
+  height:50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border:1px solid #bbb;
+  margin:15rpx auto;
+  border-radius:20rpx;
+  background-color: #fff;
+  color:#bbb;
+}

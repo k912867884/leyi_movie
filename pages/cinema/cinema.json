@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "seek":"/components/seek/seek",
+    "cinema-list":"./cinema_list/cinema_list"
+  },
+  "navigationBarTitleText": "影院列表"
+}

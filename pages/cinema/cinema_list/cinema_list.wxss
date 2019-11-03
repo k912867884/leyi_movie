@@ -1,0 +1,41 @@
+/* pages/cinema/cinema_list/cinema_list.wxss */
+
+.body {
+  margin: 25rpx 20rpx 0;
+  padding:20rpx;
+  box-shadow:0rpx 5rpx 10rpx #ccc;
+  border-radius:20rpx;
+}
+
+.title {
+  font-size: 35rpx;
+  color:#ffbf06;
+}
+
+.site {
+  display: flex;
+  justify-content: space-between;
+  margin: 15rpx 0 25rpx 0;
+}
+
+.location {
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.place {
+  color: #aaa;
+  font-size: 26rpx;
+  margin-left: 10rpx;
+}
+
+.card {
+  border: 1px solid #84b0f8;
+  padding: 5rpx 10rpx;
+  color: #84b0f8;
+  font-size:20rpx;
+  border-radius:10rpx;
+  margin-right:10rpx;
+}

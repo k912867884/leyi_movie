@@ -1,0 +1,21 @@
+<!--pages/movie/daiying/daiying.wxml-->
+<block wx:for="{{daiyingList}}" wx:key="{{index}}">
+  <view class="heated">
+    <view>
+      <image src="{{item.img}}" class="heated_img"></image>
+    </view>
+    <view class="middle">
+      <view class="title">{{item.nm}}</view>
+      <view class="text">主演：{{item.star}}</view>
+      <view>上映时间：{{item.rt}}</view>
+      <view class="fy">{{item.showInfo}}</view>
+    </view>
+    <view class="right">
+      <view class="grade">
+        <text class="score">{{item.wish}}</text>
+        <text>人想看</text>
+      </view>
+      <view class="btn">预售</view>
+    </view>
+  </view>
+</block>

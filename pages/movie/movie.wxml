@@ -1,0 +1,7 @@
+<!--pages/movie/movie.wxml-->
+<header bind:myevent="onget"/>
+<!-- 热映列表 -->
+<reying wx:if="{{active==0}}" reyingList="{{reyingList}}"/>
+<daiying wx:if="{{active==1}}" daiyingList="{{daiyingList}}"/>
+
+

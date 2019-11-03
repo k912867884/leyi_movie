@@ -1,0 +1,24 @@
+/* pages/movie/reying/reying.wxss */
+.banner_body{
+  display: flex;
+  height:110rpx;
+  border-bottom:1px solid #aaa;
+  justify-content:space-between;
+  line-height:110rpx;
+  position:relative;
+  padding:0 0rpx 15rpx 30rpx;
+}
+.seek{
+  width:110rpx;
+  height:110rpx;
+  margin-top:10rpx;
+}
+.title{
+  display: flex;
+  width:150rpx;
+  justify-content:space-between;
+}
+.active{
+  color:#78d992;
+  border-bottom:2px solid #78d992;
+}

@@ -1,0 +1,65 @@
+/* pages/mine/mine.wxss */
+.body{
+  width:100%;
+}
+.mine_img{
+  width:100rpx;
+  height:100rpx;
+  background-color:#fff;
+  border-radius: 100px;
+}
+.header{
+  width:100%;
+  height:300rpx;
+  border-radius:0 0 100rpx 100rpx;
+  background-color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_body{
+ width:230rpx;
+ height:150rpx;
+ color:#fff;
+ font-size:35rpx;
+ font-weight:bold;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.banner{
+  width:100%;
+  height:200rpx;
+  background-color:#fff;
+  border-bottom:5px solid #aaa;
+  position:absolute;
+  top:270rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.banner view{
+  text-align: center;
+  color:#eeb174;
+}
+.banner image{
+  width:120rpx; 
+  height:120rpx;
+  display: block;
+}
+.bottom_list{
+  position:absolute;
+  top:480rpx;
+  width:100%;
+}
+.list{
+  padding:20rpx 0;
+  border:1px solid #aaa;
+  box-sizing:border-box;
+  margin:30rpx 50rpx;
+  text-align: center;
+  border-radius:10rpx;
+  box-shadow:0rpx 5rpx 15rpx #888 inset;
+  color:#343434;
+  background-color:#fff;
+}

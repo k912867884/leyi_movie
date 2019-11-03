@@ -1,0 +1,5 @@
+<!--pages/cinema/cinema.wxml-->
+<view class="header">
+  <view class="find">查找影院</view>
+</view>
+<cinema-list cinemas="{{cinemaList}}"/>

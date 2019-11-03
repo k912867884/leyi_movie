@@ -1,0 +1,14 @@
+<!--pages/movie/reying/reying.wxml-->
+<view class="banner_body">
+  <view class="cinema">广州 <text class="icon"></text> </view>
+  <view class="title">
+   <block wx:for="{{titles}}" wx:key="{{index}}">
+     <view class='{{currentIndex==index?"active":""}}'
+      bind:tap="handleCilick" data-index="{{index}}"
+     >{{item}}</view>
+   </block>
+  </view>
+  <view>
+   <image class="seek" src="/assets/images/chaxun_1.png"></image>
+  </view>
+</view>

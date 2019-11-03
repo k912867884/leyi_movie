@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "header":"./header/header",
+    "reying":"./reying/reying",
+    "daiying":"./daiying/daiying"
+  }
+}

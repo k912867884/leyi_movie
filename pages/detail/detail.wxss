@@ -1,0 +1,82 @@
+/* pages/detail/detail.wxss */
+/* components/detail/detail.wxss */
+.title{
+  width:100%;
+  height:500rpx;
+  /* background-image:url('http://p1.meituan.net/movie/83c419a7feca2e50814499b0ba9f92f425215.jpg'); */
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-position:center;
+  padding: 20rpx 0 20rpx 0;
+  filter:blur(10px);
+}
+.title_cloak{
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.title_body{
+  width:100%;
+  position:absolute;
+  color:#fff;
+  top:0;
+  left:0;
+  margin:20rpx auto;
+  z-index: 10;
+}
+.title_top{
+  display: flex;
+  margin: 0 0 10rpx 20rpx;
+}
+.img{
+  width:280rpx;
+  height:400rpx;
+  border:1px solid #fff;
+}
+.detail{
+  margin:20rpx 0 0 30rpx;
+}
+.title_header{
+  font-size:40rpx;
+}
+.title_header2{
+  font-size:30rpx;
+}
+.pro{
+  color:#ffbf06;
+  margin:20rpx 0;
+}
+.title_text{
+  font-size:25rpx;
+  margin-bottom:15rpx;
+}
+.title_bottom{
+  width:100%;
+  display: flex;
+  justify-content:space-around;
+}
+.bottom_cart{
+  padding: 10rpx 130rpx;
+  border-radius: 10rpx;
+  border: 1px solid #fff;
+}
+.details{
+  overflow: hidden;
+  margin:10rpx;
+  border-bottom:10px solid #eee;
+}
+.stage{
+  padding:20rpx 0 15rpx 25rpx;
+  overflow: hidden;
+}
+.images{
+  margin-top:30rpx;
+  display: flex;
+  overflow: auto;
+  border-bottom:10px solid #eee;
+}
+.min-img{
+  width:200rpx;
+  height:200rpx;
+  margin-right:5rpx;
+}

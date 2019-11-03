@@ -1,0 +1,22 @@
+<!--pages/mine/mine.wxml-->
+<view class="body">
+  <view class="header">
+    <view class="header_body">
+      <image src="../../assets/images/me.png" class="mine_img"></image>
+      请登录</view>
+  </view>
+  <view class="banner">
+   <view> <image src="../../assets/images/xiaochi.png"></image>小吃</view>
+    <view> <image src="../../assets/images/huiyuan.png"></image>会员</view>
+    <view> <image src="../../assets/images/youhui.png"></image>优惠卷</view>
+    <view> <image src="../../assets/images/dingdan.png"></image>订单</view>
+  </view>
+  <view class="bottom_list">
+    <block wx:for="{{['我的客服','我的影票','我的小吃','影院活动']}}" wx:key="{{index}}">
+      <view class="list">
+        {{item}}
+      </view>
+    </block>
+  </view>
+
+</view>
